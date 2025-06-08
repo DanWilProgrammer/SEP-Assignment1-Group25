@@ -50,7 +50,7 @@ TODO: Write what each group member did. Use the following table for that and add
 
 | Member | Three functions (names with links to the code on the repository) created | Initial test (name) | Other tests (names) |
 | --- | --- | --- | --- |
-| Member A | | | |
-| Member B | | | |
-| Member C | | | |
-| Member D | | | |
+| Elena Toderascu | | | |
+| Adriana Voinescu | | | |
+| Romina Asgari | | | |
+| Daniel Williamson | | | |
