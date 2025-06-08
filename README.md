@@ -4,7 +4,7 @@
 
 Description: TODO
 
-Programming language: TODO
+Programming language: Python
 
 ## Initial tests
 
