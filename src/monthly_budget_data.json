@@ -1,0 +1,16 @@
+{
+  "month": "June 2025",
+  "income": {
+    "salary": 5000,
+    "side_hustle": 800
+  },
+  "expenses": {
+    "rent": 1200,
+    "utilities": 300,
+    "groceries": 400,
+    "transportation": 200,
+    "entertainment": 150,
+    "savings": 1000
+  },
+  "notes": "This budget is for the month of June 2025 and includes both the income + expenses"
+}
