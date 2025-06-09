@@ -23,7 +23,7 @@ def set_monthly_budget():
         if amount < 0:
             raise ValueError("Budget cannot be negative.")
         data = load_data()
-        data['monthly_budget_data'] = amount
+        data['monthly_budget'] = amount
         save_data(data)
         print(f"Monthly budget set to ${amount:.2f}")
     except ValueError as e:
