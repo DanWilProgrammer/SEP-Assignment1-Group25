@@ -3,8 +3,7 @@ from typing import List, Dict, Optional
 import json
 
 class Expense:
-    def __init__(self, description: str, amount: float, payer: str, participants: List[str], 
-                 category: str = "General", date: Optional[datetime] = None):
+    def __init__(self, description: str, amount: float, category: str = "General", date: Optional[datetime] = None):
         self.description = description
         self.amount = amount
         self.category = category
