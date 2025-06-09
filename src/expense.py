@@ -12,7 +12,7 @@ class Expense:
     
     def _generate_id(self) -> str:
         """Generate a unique ID for the expense."""
-        return f"{self.payer}_{self.date.strftime('%Y%m%d_%H%M%S')}"
+        return f"{self.date.strftime('%Y%m%d_%H%M%S')}"
     
     def to_dict(self) -> Dict:
         """Convert expense to dictionary format."""
