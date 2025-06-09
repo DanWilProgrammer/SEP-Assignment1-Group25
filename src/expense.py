@@ -7,8 +7,6 @@ class Expense:
                  category: str = "General", date: Optional[datetime] = None):
         self.description = description
         self.amount = amount
-        self.payer = payer
-        self.participants = participants
         self.category = category
         self.date = date or datetime.now()
         self.id = self._generate_id()
@@ -23,8 +21,6 @@ class Expense:
             'id': self.id,
             'description': self.description,
             'amount': self.amount,
-            'payer': self.payer,
-            'participants': self.participants,
             'category': self.category,
             'date': self.date.isoformat()
         }
