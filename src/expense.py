@@ -24,3 +24,18 @@ class Expense:
             'date': self.date.isoformat()
         }
 
+@classmethod
+    def total_expenses(cls, expenses: List["Expense"]) -> float
+        return sum(exp.amount for exp in expenses)
+
+@classmethod
+    def average_monthly_expenses(cls, expenses: List["Expense"]) -> float:
+        monthly_totals = defaultdict(float)
+        for exp in expenses:
+            key = (exp.date.year, exp.date.month)
+            monthly_totals[key] += exp.amount
+
+        if not monthly_totals:
+            return 0.0
+
+        return sum(monthly_totals.values()) / len(monthly_totals)
