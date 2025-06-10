@@ -25,13 +25,11 @@ class Expense:
         }
 
 @classmethod
-    def total_expenses(cls, expenses: List["Expense"]) -> float:
-        """Calculate the total amount of all expenses."""
+    def total_expenses(cls, expenses: List["Expense"]) -> float
         return sum(exp.amount for exp in expenses)
 
 @classmethod
     def average_monthly_expenses(cls, expenses: List["Expense"]) -> float:
-        """Calculate the average monthly expenses."""
         monthly_totals = defaultdict(float)
         for exp in expenses:
             key = (exp.date.year, exp.date.month)
