@@ -1,29 +1,38 @@
-
 import json
-import os
+import os 
 import plotly.express as px
 
-data_file = 'monthly_budget_data.json'
+monthly_data = 'monthly_budget_data.json'
+log_file = 'monthly_budget_log.json'
+
+def left_to_spend():
+    # Send to output the remaining sum of money for the user to spend
+    data = load_data()
+    budget = data.get('monthly_budget', 0)
+    total_expenses = sum(data.get('expenses', 0).values())  # Operation should be replaced by the total expenses function
+    remaining_money = budget - total_expenses 
+    return remaining_money
 
 def load_data():
     # Load the budget data from a JSON file
-    if not os.path.exists(data_file):
-        return {'monthly_budget': 0, 'expenses': {}, 'categories': []} # Initialize with default values
-    with open(data_file, 'r') as file:
-        try:
-            data = json.load(file)
-            if 'expenses' not in data:
-                data['expenses'] = {}
-            if 'categories' not in data:
-                data['categories'] = []
-            return data
-        except json.JSONDecodeError:
-            return {'monthly_budget': 0, 'expenses': {}, 'categories': []} # Return default if file is corrupt
+    if not os.path.exists(monthly_data):
+        return []
+    with open(monthly_data, 'r') as file:
+        return json.load(file)
 
 def save_data(data):
     # Save the budget data to a JSON file
-    with open(data_file, 'w') as file:
+    with open(monthly_data, 'w') as file:
         json.dump(data, file, indent=4)
+    with open(log_file, 'a') as file:
+        json.dump(data, file, indent=4)
+
+def log_file():
+    # Present to user their log file with all of the months; Sends message to be print otherwise
+    if not os.path.exists(log_file):
+        return "Unfortunately, the log file does not exist. Please create a budget first."
+    with open(log_file, 'r') as file:
+       return json.load(file)
 
 def set_monthly_budget():
     # Set the monthly budget based on user input
@@ -57,6 +66,7 @@ def update_monthly_budget():
         print(f"Monthly budget updated to ${new_budget:.2f}")
     except ValueError as e:
         print(f"Error: {e}")
+
 
 def remove_monthly_budget():
     data = load_data()
@@ -108,6 +118,9 @@ def output_chart():
     print(f"Chart opened in browser: {file_name}")
 
 """
+
+Some ideas on how to possibly implement the input function as per this file
+
 def menu():
     while True:
         print("\n--- Monthly Budget Menu ---")
