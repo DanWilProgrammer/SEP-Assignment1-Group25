@@ -20,7 +20,6 @@ def load_data():
         except json.JSONDecodeError:
             return {'monthly_budget': 0, 'expenses': {}, 'categories': []} # Return default if file is corrupt
 
-
 def save_data(data):
     # Save the budget data to a JSON file
     with open(data_file, 'w') as file:

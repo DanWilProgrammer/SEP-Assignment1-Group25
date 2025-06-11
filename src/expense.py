@@ -41,6 +41,7 @@ class Expense:
 
         return sum(monthly_totals.values()) / len(monthly_totals)
 
+
     @classmethod
     def total_expenses_per_category(cls, expenses: List["Expense"]) -> Dict[str, float]:
         category_totals = defaultdict(float)
