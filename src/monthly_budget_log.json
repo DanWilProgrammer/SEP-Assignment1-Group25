@@ -1,0 +1,105 @@
+[
+    {
+        "monthly_budget": 500.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-11T12:47:03.169197"
+    },
+    {
+        "monthly_budget": 700.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-11T12:47:10.925785"
+    },
+    {
+        "monthly_budget": 0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-11T12:47:15.728457"
+    },
+    {
+        "monthly_budget": 1000.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-11T12:47:26.992808"
+    },
+    {
+        "monthly_budget": 1000.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities",
+            "Meow"
+        ],
+        "timestamp": "2025-06-11T12:47:37.536688"
+    },
+    {
+        "monthly_budget": 1000.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities",
+            "Meow",
+            "Dogs"
+        ],
+        "timestamp": "2025-06-11T12:50:42.331213"
+    },
+    {
+        "monthly_budget": 500.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities",
+            "Meow",
+            "Dogs"
+        ],
+        "timestamp": "2025-06-11T12:53:01.036736"
+    },
+    {
+        "monthly_budget": 500.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities",
+            "Meow",
+            "Dogs"
+        ],
+        "timestamp": "2025-06-11T12:55:24.195457"
+    }
+]

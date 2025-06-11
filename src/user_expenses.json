@@ -1,0 +1,26 @@
+{
+    "MeowMeow": [
+        {
+            "id": "MeowMeow_20250611_124637",
+            "description": "ding dong ditch",
+            "amount": 500.0,
+            "payer": "MeowMeow",
+            "participants": [
+                "MeowMeow"
+            ],
+            "category": "General",
+            "date": "2025-06-11T12:46:37.516545"
+        },
+        {
+            "id": "MeowMeow_20250611_124901",
+            "description": "Taking out doggo",
+            "amount": 200.0,
+            "payer": "MeowMeow",
+            "participants": [
+                "MeowMeow"
+            ],
+            "category": "General",
+            "date": "2025-06-11T12:49:01.304153"
+        }
+    ]
+}
