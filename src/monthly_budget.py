@@ -13,7 +13,6 @@ def left_to_spend():
     remaining_money = budget - total_expenses 
     return remaining_money
 
-
 def load_data():
     # Load the budget data from a JSON file
     if not os.path.exists(monthly_data):
@@ -34,7 +33,6 @@ def log_file():
         return "Unfortunately, the log file does not exist. Please create a budget first."
     with open(log_file, 'r') as file:
        return json.load(file)
-    
 
 def set_monthly_budget():
     # Set the monthly budget based on user input
@@ -69,6 +67,32 @@ def update_monthly_budget():
     except ValueError as e:
         print(f"Error: {e}")
 
+
+def remove_monthly_budget():
+    data = load_data()
+    if 'monthly_budget' in data:
+        data['monthly_budget'] = 0
+        save_data(data)
+        print("Monthly budget has been removed.")
+    else:
+        print("No monthly budget set currently.")
+
+def add_category():
+    category_name = input("Enter the new category name: ").strip()
+    if not category_name:
+        print("Category name cannot be empty.")
+        return
+
+    data = load_data()
+    categories = data.get('categories', [])
+    if category_name not in categories:
+        categories.append(category_name)
+        data['categories'] = categories
+        save_data(data)
+        print(f"Category '{category_name}' added.")
+    else:
+        print(f"Category '{category_name}' already exists.")
+
 def output_chart():
     # Generate a chart of expenses using Plotly
     data = load_data()
@@ -94,6 +118,7 @@ def output_chart():
     print(f"Chart opened in browser: {file_name}")
 
 """
+
 Some ideas on how to possibly implement the input function as per this file
 
 def menu():
@@ -101,8 +126,10 @@ def menu():
         print("\n--- Monthly Budget Menu ---")
         print("1. Set Monthly Budget")
         print("2. Update Monthly Budget")
-        print("3. Output Chart")
-        print("4. Exit")
+        print("3. Remove Monthly Budget") # New option
+        print("4. Add Category") # New option
+        print("5. Output Chart")
+        print("6. Exit")
 
         choice = input("Select an option: ").strip()
 
@@ -111,8 +138,12 @@ def menu():
         elif choice == "2":
             update_monthly_budget()
         elif choice == "3":
-            output_chart()
+            remove_monthly_budget()
         elif choice == "4":
+            add_category()
+        elif choice == "5":
+            output_chart()
+        elif choice == "6":
             break
         else:
             print("Invalid option.")
