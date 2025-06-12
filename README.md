@@ -22,6 +22,9 @@ TODO: Add their code here
 
 <img width="1249" alt="Screenshot 2025-06-12 at 17 14 01" src="https://github.com/user-attachments/assets/4faca02f-8654-4c0d-adfc-935f95ae3928" />
 
+*test_left_to_spend: (Elena)*
+
+![image](https://github.com/user-attachments/assets/88daef5f-478b-4fde-ad94-1fe5e473cb06)
 
 ### Coverage of initial tests
 
