@@ -56,6 +56,24 @@ class TestExpenseFunctions(unittest.TestCase):
         expected_total = 15.50 + 30.00 + 50.00 + 12.00
         self.assertAlmostEqual(total, expected_total)
 
+    def test_total_expenses_per_category_basic_calculation(self):
+        expense1 = Expense("Groceries", 50.0, "adriana", ["adriana"], "Food", datetime(2025, 1, 10))
+        expense2 = Expense("Pathe Ticket", 16.0, "jacob", ["jacob"], "Entertainment", datetime(2025, 4, 9))
+        expense3 = Expense("Dinner", 87.0, "adriana", ["adriana", "jacob"], "Food", datetime(2025, 11, 9))
+        expense4 = Expense("Bus Ticket", 3.0, "juliet", ["juliet"], "Transportation", datetime(2025, 9, 7))
+        
+        expenses = [expense1, expense2, expense3, expense4]
+
+        expected_totals = {
+            "Food": 137.0,
+            "Entertainment": 16.0,
+            "Transportation": 3.0
+        }
+
+        actual_total = Expense.total_expenses_per_category(expenses)
+
+        self.assertDictEqual(actual_totals, expected_totals)
+
     
     def test_total_expenses_per_category_single_new_category(self):
         expenses = [
