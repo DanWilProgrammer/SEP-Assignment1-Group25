@@ -259,20 +259,3 @@ coverage report -m
 </table>
 
 ---
-
-## 🎯 Key Achievements
-
-- ✅ **Comprehensive Test Coverage**: Implemented thorough testing across all major functionality areas
-- ✅ **Edge Case Handling**: Added tests for error conditions and boundary cases  
-- ✅ **Code Quality**: Improved overall code reliability through systematic testing
-- ✅ **Team Collaboration**: Successful distributed development with clear individual contributions
-
----
-
-<div align="center">
-
-**📝 Report Generated:** June 2025  
-**🏫 Course:** Software Engineering Practices  
-**👥 Team:** Group 25
-
-</div>
