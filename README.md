@@ -20,7 +20,7 @@ TODO: Add their code here
 
 Tool Used: coverage.py
 
-Command Used:
+Commands Used:
 
 - coverage run -m pytest
 - coverage report -m
@@ -62,11 +62,11 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
-![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
+![image](https://github.com/user-attachments/assets/49940e0e-f703-413e-b253-952ea8066b16)
 
 TODO: Provide a screenshot of the new coverage results
 
-![image](https://github.com/user-attachments/assets/0415d82b-af1d-4939-b008-34e1ce518e7f)
+![image](https://github.com/user-attachments/assets/d6c8dda3-5629-4105-9909-0c5df5285876)
 
 Romina
 
