@@ -132,6 +132,8 @@ TODO: `test_total_expenses_per_category_basic_calculation`
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+![image](https://github.com/user-attachments/assets/f2389064-81c7-4026-973e-5e4087e24808)
+
 
 TODO: Provide a screenshot of the new coverage results
 
