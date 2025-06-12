@@ -106,7 +106,8 @@ TODO: State the coverage improvement with a number and elaborate on why the cove
 
 **Test 2:** `input_expenses`
 
- <img width="737" alt="Screenshot 2025-06-12 at 19 18 15" src="https://github.com/user-attachments/assets/4a0cd644-5138-4a3f-a9b9-ed0daee29d75" />
+![image](https://github.com/user-attachments/assets/c84b1ff1-f735-4593-b60a-0a8d431906d6)
+
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
