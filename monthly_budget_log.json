@@ -70,5 +70,77 @@
             "Utilities"
         ],
         "timestamp": "2025-06-12T21:14:15.468207"
+    },
+    {
+        "monthly_budget": 1000,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:09:46.330938"
+    },
+    {
+        "monthly_budget": 1500.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:09:46.332759"
+    },
+    {
+        "monthly_budget": 1000,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:13:04.966595"
+    },
+    {
+        "monthly_budget": 1500.0,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:13:04.968948"
+    },
+    {
+        "monthly_budget": 1000,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:13:21.386770"
+    },
+    {
+        "monthly_budget": 1000,
+        "expenses": {},
+        "categories": [
+            "General",
+            "Food",
+            "Transportation",
+            "Entertainment",
+            "Utilities"
+        ],
+        "timestamp": "2025-06-12T22:14:41.622161"
     }
 ]

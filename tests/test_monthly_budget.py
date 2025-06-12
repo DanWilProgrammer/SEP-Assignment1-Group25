@@ -1,7 +1,7 @@
 import pytest
 import json
 from main import register, login, get_database, get_user_expenses, save_user_expenses, _generate_id
-from src.monthly_budget import left_to_spend, load_data, save_data, view_log_file
+from src.monthly_budget import left_to_spend, load_data, save_data, view_log_file, set_monthly_budget, view_monthly_budget, remove_monthly_budget
 from expense import Expense
 import main
 import os
@@ -75,3 +75,45 @@ def test_left_to_spend(isolated_files):
     remaining = left_to_spend(expenses)
     assert remaining == initial_budget - 450
 
+def test_monthly_budget_functions(monkeypatch, capsys, isolated_files):
+    # Test set monthly budget
+    monkeypatch.setattr("builtins.input", lambda _: "1500")
+    set_monthly_budget()
+    data = load_data()
+    assert data["monthly_budget"] == 1500
+
+    # Test view monthly budget
+    view_monthly_budget()
+    captured = capsys.readouterr()
+    assert "Monthly budget set to $1500.00" in captured.out
+    
+    # Test update monthly budget
+    # Negative budget
+    monkeypatch.setattr("builtins.input", lambda _: "-500")
+    set_monthly_budget()
+    captured = capsys.readouterr()
+    assert "Error: Budget cannot be negative." in captured.out
+
+    # Positive budget
+    monkeypatch.setattr("builtins.input", lambda _: "2000")
+    set_monthly_budget()
+    captured = capsys.readouterr()
+    assert "Monthly budget set to $2000.00" in captured.out
+    
+    # Test remove monthly budget
+    # Non-zero budget
+    remove_monthly_budget()
+    captured = capsys.readouterr()
+    assert "Monthly budget has been removed." in captured.out
+
+    # Zero budget
+    data = load_data()
+    data['monthly_budget'] = 0
+    save_data(data)
+    remove_monthly_budget()
+    captured = capsys.readouterr()
+    assert "No monthly budget set currently." in captured.out
+    
+
+    
+ 
