@@ -94,9 +94,12 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
-<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
+![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
+
 
 TODO: Provide a screenshot of the new coverage results
+
+<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
