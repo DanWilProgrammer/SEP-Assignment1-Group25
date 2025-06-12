@@ -1,4 +1,4 @@
-# Report for Assignment 1
+![image](https://github.com/user-attachments/assets/96c5f41f-0137-4426-8596-befa5e93e4e0)# Report for Assignment 1
 
 ## Project
 
@@ -144,6 +144,20 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 TODO: Provide a screenshot of the new coverage results
 
 ![Afbeelding van WhatsApp op 2025-06-12 om 21 47 33_0ea1d671](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+TODO: `test_monthly_budget`
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+![Afbeelding van WhatsApp op 2025-06-12 om 21 47 33_0ea1d671](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
+
+TODO: Provide a screenshot of the new coverage results
+
+![image](https://github.com/user-attachments/assets/5838a404-5839-4d1d-bd28-52e511a977f7)
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
