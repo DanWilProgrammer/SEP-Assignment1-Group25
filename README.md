@@ -56,7 +56,7 @@ TODO: State the coverage improvement with a number and elaborate on why the cove
 
 **Test:** `test_duplicate_registration`
 
-![image](https://github.com/user-attachments/assets/3d518a1f-26fc-4d57-80a1-2f3c3368e048)
+![image](https://github.com/user-attachments/assets/3d518a1f-26fc-4d57-80a1-2f3c3368e048)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/310f2e4b5f1e2307fbb7f15bf045fdff80ea102d)
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
