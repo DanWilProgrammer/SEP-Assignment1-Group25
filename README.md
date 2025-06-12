@@ -120,8 +120,9 @@ TODO: Provide a screenshot of the new coverage results
 
 Adriana
 
-TODO: `test_total_expenses_per_category_basic_calculation`
-![image](https://github.com/user-attachments/assets/00069df2-cb96-46d7-a950-8b9b792b42db)
+TODO: `test_total_expenses_per_category_single_new_category`
+![image](https://github.com/user-attachments/assets/e38dbaf4-a459-4c53-be51-2df340446c5c)
+
 
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
@@ -131,6 +132,8 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 
 
 TODO: Provide a screenshot of the new coverage results
+![image](https://github.com/user-attachments/assets/f73ae108-860a-4b4c-a98f-263ce672c6c0)
+
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
@@ -177,6 +180,6 @@ TODO: Provide a screenshot of the new coverage results by running the existing t
 | Member              | Three functions (with links to the code)                                                                                                                                             | Initial Test                        | Other Tests                                            |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------|
 | Elena Toderascu     | [`login`](src/main.py#L82), [`left_to_spend`](src/monthly_budget.py#L12), [`view_log_file`](src/monthly_budget.py#L76)                                                                          | `test_left_to_spend`        | `test_view_log_file`, `test_monthly_budget_functions` |
-| Adriana Voinescu    | [`add_category`](src/monthly_budget.py#L142), [`total_expenses_per_category`](src/expense.py#L69), [`remove_monthly_budget`](src/monthly_budget.py#L132)                    | `test_total_expenses_per_category_basic_calculation`         | `TEST_TO_BE_WRITTEN`, `TEST_TO_BE_WRITTEN`   |
+| Adriana Voinescu    | [`add_category`](src/monthly_budget.py#L142), [`total_expenses_per_category`](src/expense.py#L69), [`remove_monthly_budget`](src/monthly_budget.py#L132)                    | `test_total_expenses_per_category_basic_calculation`         | `test_total_expenses_per_category_single_new_category`, `TEST_TO_BE_WRITTEN`   |
 | Romina Asgari       | [`total_expenses`](src/expense.py#L48), [`average_monthly_expenses`](src/expense.py#L53), [`input_expense`](src/main.py#L100)                                                | `test_average_monthly_expenses`  | `test_total_expenses`, `test_input_expenses` |
 | Daniel Williamson   | [`output_chart`](src/monthly_budget.py#L159), [`set_monthly_budget`](src/monthly_budget.py#L98), [`update_monthly_budget`](src/monthly_budget.py#L118)                                                                                         | `test_register_and_login`           | `test_expense_save_and_load`, `test_duplicate_registration`  |
