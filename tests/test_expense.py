@@ -1,8 +1,8 @@
 import pytest
 import json
-from main import register, login, get_database, get_user_expenses, save_user_expenses, _generate_id
+from src.main import register, login, get_database, get_user_expenses, save_user_expenses, _generate_id
 from expense import Expense
-import main
+import src.main
 import unittest
 from datetime import datetime
 from src.expense import Expense
@@ -51,6 +51,26 @@ class TestExpenseFunctions(unittest.TestCase):
 
     def test_average_monthly_expenses_two_months(self):
         self.assertAlmostEqual(Expense.average_monthly_expenses(self.expenses), 53.75)
+
+    def test_total_expenses_per_category_basic_calculation(self):
+        # Condition: there are expenses across different categories
+        # Expected result: prints correct results(sums) for each category
+        expense1 = Expense("Groceries", 50.0, "adriana", ["adriana"], "Food", datetime(2025, 1, 10))
+        expense2 = Expense("Pathe Ticket", 16.0, "jacob", ["jacob"], "Entertainment", datetime(2025, 4, 9))
+        expense3 = Expense("Dinner", 87.0, "adriana", ["adriana", "jacob"], "Food", datetime(2025, 11, 9))
+        expense4 = Expense("Bus Ticket", 3.0, "juliet", ["juliet"], "Transportation", datetime(2025, 9, 7))
+
+        expenses = [expense1, expense2, expense3, expense4]
+
+        expected_totals = {
+            "Food": 137.0,
+            "Entertainment": 16.0,
+            "Transportation": 3.0
+        }
+
+        actual_totals = Expense.total_expenses_per_category(expenses)
+
+        self.assertDictEqual(actual_totals, expected_totals)
 
 if __name__ == "__main__":
     unittest.main()
