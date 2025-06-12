@@ -32,6 +32,10 @@ Commands Used:
 Initial Test Coverage (so far just Daniel at this point)
 ![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
 
+Initial Test Coverage (Romina)
+<img width="614" alt="Screenshot 2025-06-12 at 19 18 27" src="https://github.com/user-attachments/assets/73bd62e8-ef42-40c1-b3a8-1e1a48b3122c" />
+
+
 ## Coverage improvement
 
 ### Individual tests
