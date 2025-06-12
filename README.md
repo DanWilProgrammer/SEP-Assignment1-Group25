@@ -77,7 +77,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/49940e0e-f703-413e-b253-952ea8066b16)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *4%*
 - Enhanced testing of file I/O operations for expense data persistence
 
 #### ✅ **Test 2:** `test_duplicate_registration`
@@ -90,7 +90,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/d6c8dda3-5629-4105-9909-0c5df5285876)
 
-**Coverage Improvement:** *5%*
+**Coverage Improvement:** *1%*
 - Improved validation testing for user registration edge cases
 
 ---
