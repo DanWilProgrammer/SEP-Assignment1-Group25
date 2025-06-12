@@ -12,7 +12,7 @@ Programming language: Python
 
 *test_register_and_login:*
 
-![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)
+[![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)](tests/test_main.py#L20)
 
 TODO: Add their code here
 
