@@ -72,5 +72,18 @@ class TestExpenseFunctions(unittest.TestCase):
 
         self.assertDictEqual(actual_totals, expected_totals)
 
+    def test_total_expenses_per_category_single_new_category(self):
+        # Tests: total_expenses_per_category with a new category for expenses.
+        # Expected result: Correctly calculates total for the new category.
+        expenses = [
+            Expense("Uni tuition", 2500.0, "adriana", ["adriana"], "Education"),
+            Expense("Zybook", 20.0, "adriana", ["adriana"], "Education")
+        ]
+        expected_totals = {
+            "Education": 2520.0
+        }
+        actual_totals = Expense.total_expenses_per_category(expenses)
+        self.assertEqual(actual_totals, expected_totals)
+
 if __name__ == "__main__":
     unittest.main()
