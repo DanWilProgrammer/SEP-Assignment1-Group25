@@ -36,9 +36,9 @@ TODO: The following is supposed to be repeated for each group member
 
 Daniel
 
-*test_expense_save_and_load*
+**Test:** `test_expense_save_and_load`
 
-![image](https://github.com/user-attachments/assets/67baca08-8f86-4616-843f-b3bc201c8e5a)
+[![image](https://github.com/user-attachments/assets/67baca08-8f86-4616-843f-b3bc201c8e5a)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/2d1be7ca42bad5cb70354ca21d37f16535fd2fbd)
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
