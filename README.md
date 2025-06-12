@@ -30,7 +30,7 @@ Initial Test Coverage (so far just Daniel at this point)
 
 TODO: The following is supposed to be repeated for each group member
 
-TODO: Daniel
+Daniel
 
 TODO: Test 1
 
@@ -42,7 +42,7 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-TODO: Romina
+Romina
 
 TODO: Test 1
 
@@ -54,7 +54,7 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-TODO: Adrianna
+Adrianna
 
 TODO: Test 1
 
@@ -66,7 +66,7 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-TODO: Elena
+Elena
 
 TODO: Test 1
 
