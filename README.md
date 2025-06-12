@@ -46,7 +46,11 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
+![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
+
 TODO: Provide a screenshot of the new coverage results
+
+![image](https://github.com/user-attachments/assets/49940e0e-f703-413e-b253-952ea8066b16)
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
