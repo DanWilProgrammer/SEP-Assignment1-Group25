@@ -101,7 +101,7 @@ TODO: State the coverage improvement with a number and elaborate on why the cove
 
 Adriana
 
-TODO: 'test_total_expenses_per_category_basic_calculation'
+TODO: `test_total_expenses_per_category_basic_calculation`
 ![image](https://github.com/user-attachments/assets/00069df2-cb96-46d7-a950-8b9b792b42db)
 
 
