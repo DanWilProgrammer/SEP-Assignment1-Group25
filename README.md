@@ -20,7 +20,7 @@ Programming language: Python
 
 *test_left_to_spend: (Elena)*
 
-![Afbeelding van WhatsApp op 2025-06-12 om 20 21 31_325c072b](https://github.com/user-attachments/assets/38b1f4aa-041d-4502-b258-ce90f2780254)
+![image](https://github.com/user-attachments/assets/d60fb46d-3eef-42ce-8e0d-9b87c1a2dd87)
 
 ### Coverage of initial tests
 
