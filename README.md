@@ -34,16 +34,9 @@ Commands Used:
 - coverage run -m pytest
 - coverage report -m
 
-Initial Test Coverage (so far just Daniel at this point)
-![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
+Initial Test Coverage (This should be the last image as this is after the inital test from Adriana)
+![Afbeelding van WhatsApp op 2025-06-12 om 21 59 54_82666882](https://github.com/user-attachments/assets/2e85ee15-1892-4613-9034-90497c7ca631)
 
-*Initial Test Coverage (Romina)*
-
-![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
-
-*Initial Test Coverage (Elena)*
-
-![image](https://github.com/user-attachments/assets/2b7a35c4-32f4-4d56-b521-523b6e697311)
 
 
 ## Coverage improvement
