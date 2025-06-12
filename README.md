@@ -30,17 +30,21 @@
 #### 💰 **Expense Calculation Testing** *(Romina)*
 **Test:** `test_total_expenses`
 
-[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_main.py#L20)
+[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_expense.py#L54)
 
 ![Test Screenshot](https://github.com/user-attachments/assets/f0bb743e-5e0a-4c15-a29d-1573d78e49ab)
 
 #### 📈 **Budget Analysis Testing** *(Elena)*
 **Test:** `test_left_to_spend`
 
+[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_monthly_budget.py#L56)
+
 ![Test Screenshot](https://github.com/user-attachments/assets/d60fb46d-3eef-42ce-8e0d-9b87c1a2dd87)
 
 #### 📊 **Category Analytics Testing** *(Adriana)*
 **Test:** `test_total_expenses_per_category_basic_calculation`
+
+[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_monthly_budget.py#L56)
 
 ![Test Screenshot](https://github.com/user-attachments/assets/2f5cfdab-93a5-415d-b74a-26362cd6665a)
 
