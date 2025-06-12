@@ -45,11 +45,7 @@
             "Entertainment",
             "Utilities"
         ],
-<<<<<<< HEAD
         "timestamp": "2025-06-12T20:27:58.832621"
-=======
-        "timestamp": "2025-06-12T21:12:43.677197"
->>>>>>> 268f9f60a4ed6c4b670833e90af25003a0ee3aa0
     },
     {
         "monthly_budget": 1000,
@@ -61,94 +57,6 @@
             "Entertainment",
             "Utilities"
         ],
-<<<<<<< HEAD
         "timestamp": "2025-06-12T22:44:10.243274"
-=======
-        "timestamp": "2025-06-12T21:13:27.736086"
-    },
-    {
-        "monthly_budget": 1000,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T21:14:15.468207"
-    },
-    {
-        "monthly_budget": 1000,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:09:46.330938"
-    },
-    {
-        "monthly_budget": 1500.0,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:09:46.332759"
-    },
-    {
-        "monthly_budget": 1000,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:13:04.966595"
-    },
-    {
-        "monthly_budget": 1500.0,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:13:04.968948"
-    },
-    {
-        "monthly_budget": 1000,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:13:21.386770"
-    },
-    {
-        "monthly_budget": 1000,
-        "expenses": {},
-        "categories": [
-            "General",
-            "Food",
-            "Transportation",
-            "Entertainment",
-            "Utilities"
-        ],
-        "timestamp": "2025-06-12T22:14:41.622161"
->>>>>>> 268f9f60a4ed6c4b670833e90af25003a0ee3aa0
     }
 ]
