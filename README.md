@@ -84,7 +84,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/d6c8dda3-5629-4105-9909-0c5df5285876)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *5%*
 - Improved validation testing for user registration edge cases
 
 ---
@@ -114,7 +114,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/799a0a8d-2e8e-493f-87fa-52bdd8136686)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *6%*
 - Improved testing of expense input validation and processing
 
 ---
@@ -144,7 +144,7 @@ coverage report -m
 **After Coverage:**
 ![image](https://github.com/user-attachments/assets/d15daea2-daf2-4d82-a368-23eacbd4edbf)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *10%*
 - Improved testing of category-based expense analysis
 
 ---
@@ -170,7 +170,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/5838a404-5839-4d1d-bd28-52e511a977f7)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *12%*
 - Improved testing of monthly budget management features
 
 ---
