@@ -14,7 +14,7 @@ Programming language: Python
 
 [![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)](tests/test_main.py#L20)
 
-*ttest_total_expenses: (Romina)*
+*test_total_expenses: (Romina)*
 
 ![image](https://github.com/user-attachments/assets/f0bb743e-5e0a-4c15-a29d-1573d78e49ab)
 
