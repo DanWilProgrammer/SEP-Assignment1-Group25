@@ -74,26 +74,20 @@ def save_data(data):
         print(f"Warning: Could not update log file: {e}")
 
 def view_log_file():
-    """Present to user their log file with all of the months; Sends message to be print otherwise"""
+    """Present to the user their log file with all of the months; Sends message to be print otherwise"""
     if not os.path.exists(log_file):
-        return "Unfortunately, the log file does not exist. Please create a budget first."
+        return "Unfortunately, the log file does not exist."
     
-    try:
-        with open(log_file, 'r') as file:
-            log_data = json.load(file)
+    with open(log_file, 'r') as file:
+        log_data = file.read().strip()
         
-        if not log_data:
-            return "Log file is empty."
+    result = "=== Budget History ===\n"
+    for i, entry in enumerate(log_data, 1):
+        timestamp = entry.get('timestamp', 'Unknown time')
+        budget = entry.get('monthly_budget', 0)
+        result += f"{i}. {timestamp}: Budget set to ${budget:.2f}\n"
         
-        result = "=== Budget History ===\n"
-        for i, entry in enumerate(log_data, 1):
-            timestamp = entry.get('timestamp', 'Unknown time')
-            budget = entry.get('monthly_budget', 0)
-            result += f"{i}. {timestamp}: Budget set to ${budget:.2f}\n"
-        
-        return result
-    except Exception as e:
-        return f"Error reading log file: {e}"
+    return result
 
 def set_monthly_budget():
     """Set the monthly budget based on user input"""
