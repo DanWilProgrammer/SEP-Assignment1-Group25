@@ -91,7 +91,8 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
-![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
+![image](https://github.com/user-attachments/assets/07e4ed37-f2a8-4c56-aef4-bc814e6c8b7e)
+
 
 TODO: Provide a screenshot of the new coverage results
 
@@ -141,9 +142,25 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
+![Afbeelding van WhatsApp op 2025-06-12 om 20 21 31_83b6500c](https://github.com/user-attachments/assets/b9828f07-237d-4c53-8fa5-86af5d05cbde)
+
 TODO: Provide a screenshot of the new coverage results
 
 ![Afbeelding van WhatsApp op 2025-06-12 om 21 47 33_0ea1d671](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+TODO: `test_monthly_budget`
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+![Afbeelding van WhatsApp op 2025-06-12 om 21 47 33_0ea1d671](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
+
+TODO: Provide a screenshot of the new coverage results
+
+![image](https://github.com/user-attachments/assets/5838a404-5839-4d1d-bd28-52e511a977f7)
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
@@ -159,7 +176,7 @@ TODO: Provide a screenshot of the new coverage results by running the existing t
 
 | Member              | Three functions (with links to the code)                                                                                                                                             | Initial Test                        | Other Tests                                            |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------|
-| Elena Toderascu     | [`login`](src/main.py#L82), [`left_to_spend`](src/monthly_budget.py#L12), [`view_log_file`](src/monthly_budget.py#L76)                                                                          | `test_left_to_spend`        | `test_view_log_file`, `TEST_TO_BE_WRITTEN` |
-| Adriana Voinescu    | [`add_category`](src/monthly_budget.py#L142), [`total_expenses_per_category`](src/expense.py#L69), [`remove_monthly_budget`](src/monthly_budget.py#L132)                    | `TEST_TO_BE_WRITTEN`         | `TEST_TO_BE_WRITTEN`, `TEST_TO_BE_WRITTEN`   |
+| Elena Toderascu     | [`login`](src/main.py#L82), [`left_to_spend`](src/monthly_budget.py#L12), [`view_log_file`](src/monthly_budget.py#L76)                                                                          | `test_left_to_spend`        | `test_view_log_file`, `test_monthly_budget_functions` |
+| Adriana Voinescu    | [`add_category`](src/monthly_budget.py#L142), [`total_expenses_per_category`](src/expense.py#L69), [`remove_monthly_budget`](src/monthly_budget.py#L132)                    | `test_total_expenses_per_category_basic_calculation`         | `TEST_TO_BE_WRITTEN`, `TEST_TO_BE_WRITTEN`   |
 | Romina Asgari       | [`total_expenses`](src/expense.py#L48), [`average_monthly_expenses`](src/expense.py#L53), [`input_expense`](src/main.py#L100)                                                | `test_average_monthly_expenses`  | `test_total_expenses`, `test_input_expenses` |
 | Daniel Williamson   | [`output_chart`](src/monthly_budget.py#L159), [`set_monthly_budget`](src/monthly_budget.py#L98), [`update_monthly_budget`](src/monthly_budget.py#L118)                                                                                         | `test_register_and_login`           | `test_expense_save_and_load`, `test_duplicate_registration`  |
