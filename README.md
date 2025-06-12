@@ -84,11 +84,16 @@ TODO: Provide a screenshot of the new coverage results
 
 Romina
 
-TODO: Test 1
+**TODO:** `total_expenses`
+
+<img width="668" alt="Screenshot 2025-06-12 at 18 07 34" src="https://github.com/user-attachments/assets/d50a0f0b-c7d2-4674-87f7-81a9b37d7a81" />
+
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
 
 TODO: Provide a screenshot of the new coverage results
 
