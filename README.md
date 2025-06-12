@@ -22,6 +22,9 @@ Programming language: Python
 
 ![image](https://github.com/user-attachments/assets/d60fb46d-3eef-42ce-8e0d-9b87c1a2dd87)
 
+*test_total_expenses_per_category_basic_calculation: (Adriana)*
+![image](https://github.com/user-attachments/assets/2f5cfdab-93a5-415d-b74a-26362cd6665a)
+
 ### Coverage of initial tests
 
 Tool Used: coverage.py
