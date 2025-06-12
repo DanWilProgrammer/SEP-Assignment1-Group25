@@ -97,11 +97,26 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 ![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
 
 
+
 TODO: Provide a screenshot of the new coverage results
 
 <img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+**Test:** `input_expenses`
+
+ <img width="737" alt="Screenshot 2025-06-12 at 19 18 15" src="https://github.com/user-attachments/assets/4a0cd644-5138-4a3f-a9b9-ed0daee29d75" />
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
+ODO: Provide a screenshot of the new coverage results
+
+<img width="552" alt="Screenshot 2025-06-12 at 20 15 23" src="https://github.com/user-attachments/assets/799a0a8d-2e8e-493f-87fa-52bdd8136686" />
+
 
 Adriana
 
