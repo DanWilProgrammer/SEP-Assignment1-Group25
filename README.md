@@ -30,6 +30,8 @@
 #### 💰 **Expense Calculation Testing** *(Romina)*
 **Test:** `test_total_expenses`
 
+[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_main.py#L20)
+
 ![Test Screenshot](https://github.com/user-attachments/assets/f0bb743e-5e0a-4c15-a29d-1573d78e49ab)
 
 #### 📈 **Budget Analysis Testing** *(Elena)*
