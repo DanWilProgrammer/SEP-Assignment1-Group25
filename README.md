@@ -90,13 +90,11 @@ TODO: Provide a screenshot of the old coverage results by running an existing to
 
 TODO: Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group
 
-## Statement of individual contributions
+## 👥 Statement of Individual Contributions
 
-TODO: Write what each group member did. Use the following table for that and add additional text under it if you see fit.
-
-| Member | Three functions (names with links to the code on the repository) created | Initial test (name) | Other tests (names) |
-| --- | --- | --- | --- |
-| Elena Toderascu | | | |
-| Adriana Voinescu | | | |
-| Romina Asgari | | | |
-| Daniel Williamson | | | |
+| Member              | Three functions (with links to the code)                                                                                                                                             | Initial Test                        | Other Tests                                            |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------|
+| Elena Toderascu     | [`input_expense`](src/main.py#L174), [`add_expense`](src/main.py#L203), [`view_expenses`](src/main.py#L218)                                                                          | `test_expense_save_and_load`        | `test_view_expenses_no_user`, `test_add_expense_flow` |
+| Adriana Voinescu    | [`set_monthly_budget`](src/monthly_budget.py#L97), [`update_monthly_budget`](src/monthly_budget.py#L113), [`remove_monthly_budget`](src/monthly_budget.py#L126)                    | `test_view_budget_log_file`         | `test_remove_budget`, `test_update_budget_negative`   |
+| Romina Asgari       | [`output_chart`](src/monthly_budget.py#L147), [`add_category`](src/monthly_budget.py#L135), [`load_data`](src/monthly_budget.py#L26)                                                | `test_output_chart_invalid_choice`  | `test_add_duplicate_category`, `test_chart_missing_user` |
+| Daniel Williamson   | [`register`](src/main.py#L73), [`login`](src/main.py#L94), [`_generate_id`](src/main.py#L69)                                                                                         | `test_register_and_login`           | `test_duplicate_registration`, `test_login_fail_case`  |
