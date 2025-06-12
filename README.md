@@ -10,6 +10,9 @@ Programming language: Python
 
 ### Tests
 
+
+![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)
+
 TODO: Add their code here
 
 ### Coverage of initial tests
