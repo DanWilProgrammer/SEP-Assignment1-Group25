@@ -18,8 +18,8 @@ Tool Used: coverage.py
 
 Command Used:
 
-coverage run -m pytest
-coverage report -m
+- coverage run -m pytest
+- coverage report -m
 
 TODO: Show the coverage results provided by the existing tool with a screenshot
 
