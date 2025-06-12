@@ -188,12 +188,6 @@ coverage report -m
 
 ### Before vs After Comparison
 
-| Metric | Initial Coverage | Final Coverage | Improvement |
-|--------|------------------|----------------|-------------|
-| **Line Coverage** | *[To be filled]* | *[To be filled]* | *[To be calculated]* |
-| **Branch Coverage** | *[To be filled]* | *[To be filled]* | *[To be calculated]* |
-| **Function Coverage** | *[To be filled]* | *[To be filled]* | *[To be calculated]* |
-
 **Final Coverage Screenshot:**
 ![image](https://github.com/user-attachments/assets/4e058e69-7b33-4092-a8cf-9f1d78f11a8e)
 
