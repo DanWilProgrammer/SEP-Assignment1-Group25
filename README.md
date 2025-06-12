@@ -98,6 +98,7 @@ coverage report -m
 ### 👩‍💻 Romina Asgari
 
 #### ✅ **Test 1:** `test_average_monthly_expenses`
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/50f7905b39c6b4cb205a4e58dac368020965dfc0)
 
 ![Test Implementation](https://github.com/user-attachments/assets/22c53da5-755b-4049-aa19-04c69b637ee8)
 
@@ -107,10 +108,12 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/4bde0b98-d3ac-4955-be38-b38edb0d601d)
 
-**Coverage Improvement:** *8%*
+**Coverage Improvement:** *1%*
 - Enhanced testing of monthly expense calculation algorithms
 
 #### ✅ **Test 2:** `test_input_expenses`
+
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/50f7905b39c6b4cb205a4e58dac368020965dfc0)
 
 ![Test Implementation](https://github.com/user-attachments/assets/c84b1ff1-f735-4593-b60a-0a8d431906d6)
 
@@ -120,7 +123,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/799a0a8d-2e8e-493f-87fa-52bdd8136686)
 
-**Coverage Improvement:** *6%*
+**Coverage Improvement:** *5%*
 - Improved testing of expense input validation and processing
 
 ---
@@ -137,7 +140,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/f73ae108-860a-4b4c-a98f-263ce672c6c0)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *4%*
 - Enhanced testing of budget removal functionality and edge cases
 
 #### ✅ **Test 2:** `test_total_expenses_per_category_single_new_category`
@@ -150,7 +153,7 @@ coverage report -m
 **After Coverage:**
 ![image](https://github.com/user-attachments/assets/d15daea2-daf2-4d82-a368-23eacbd4edbf)
 
-**Coverage Improvement:** *10%*
+**Coverage Improvement:** *6%*
 - Improved testing of category-based expense analysis
 
 ---
@@ -165,7 +168,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *8%*
 - Enhanced testing of log file viewing and data retrieval functionality
 
 #### ✅ **Test 2:** `test_monthly_budget`
@@ -176,7 +179,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/5838a404-5839-4d1d-bd28-52e511a977f7)
 
-**Coverage Improvement:** *12%*
+**Coverage Improvement:** *4%*
 - Improved testing of monthly budget management features
 
 ---
