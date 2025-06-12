@@ -14,9 +14,10 @@ Programming language: Python
 
 [![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)](tests/test_main.py#L20)
 
-*test_average_monthly_expenses: (Romina)*
+*ttest_total_expenses: (Romina)*
 
-<img width="1249" alt="Screenshot 2025-06-12 at 17 14 01" src="https://github.com/user-attachments/assets/4faca02f-8654-4c0d-adfc-935f95ae3928" />
+![image](https://github.com/user-attachments/assets/f0bb743e-5e0a-4c15-a29d-1573d78e49ab)
+
 
 *test_left_to_spend: (Elena)*
 
