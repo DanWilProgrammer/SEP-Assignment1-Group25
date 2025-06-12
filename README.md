@@ -40,6 +40,8 @@ Daniel
 
 [![image](https://github.com/user-attachments/assets/67baca08-8f86-4616-843f-b3bc201c8e5a)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/2d1be7ca42bad5cb70354ca21d37f16535fd2fbd)
 
+*click images to go to commit with relevant test*
+
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
