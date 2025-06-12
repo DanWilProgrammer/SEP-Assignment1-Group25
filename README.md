@@ -36,7 +36,9 @@ TODO: The following is supposed to be repeated for each group member
 
 Daniel
 
-TODO: Test 1
+*test_expense_save_and_load*
+
+![image](https://github.com/user-attachments/assets/67baca08-8f86-4616-843f-b3bc201c8e5a)
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
