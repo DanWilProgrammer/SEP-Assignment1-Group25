@@ -126,7 +126,7 @@ TODO: Provide a screenshot of the new coverage results
 
 Adriana
 
-TODO: `test_RemoveMonthlyBudget_BudgetExists_BudgetIsZero`
+**Test 1:**: `test_RemoveMonthlyBudget_BudgetExists_BudgetIsZero`
 ![image](https://github.com/user-attachments/assets/17e0ebc1-9890-4b26-96a9-184f067f5a3b)
 
 
@@ -141,6 +141,16 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 TODO: Provide a screenshot of the new coverage results
 ![image](https://github.com/user-attachments/assets/f73ae108-860a-4b4c-a98f-263ce672c6c0)
 
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+**Test 2:** `test_total_expenses_per_category_single_new_category`
+![image](https://github.com/user-attachments/assets/a7964086-f8ea-427d-a866-d632b81598cc)
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+![image](https://github.com/user-attachments/assets/f2389064-81c7-4026-973e-5e4087e24808)
+
+TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
