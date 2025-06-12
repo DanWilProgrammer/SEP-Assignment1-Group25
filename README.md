@@ -38,7 +38,8 @@ Initial Test Coverage (so far just Daniel at this point)
 
 *Initial Test Coverage (Romina)*
 
-<img width="614" alt="Screenshot 2025-06-12 at 19 18 27" src="https://github.com/user-attachments/assets/73bd62e8-ef42-40c1-b3a8-1e1a48b3122c" />
+![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
+
 
 
 ## Coverage improvement
