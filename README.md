@@ -186,7 +186,7 @@ coverage report -m
 | **Function Coverage** | *[To be filled]* | *[To be filled]* | *[To be calculated]* |
 
 **Final Coverage Screenshot:**
-*[Comprehensive coverage report to be added]*
+![image](https://github.com/user-attachments/assets/4e058e69-7b33-4092-a8cf-9f1d78f11a8e)
 
 ---
 
