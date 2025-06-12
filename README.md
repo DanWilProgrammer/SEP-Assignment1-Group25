@@ -14,10 +14,6 @@ Programming language: Python
 
 [![image](https://github.com/user-attachments/assets/77c033c7-edd9-4eeb-b3bc-178e41187efe)](tests/test_main.py#L20)
 
-TODO: Add their code here
-
-
-
 *test_average_monthly_expenses: (Romina)*
 
 <img width="1249" alt="Screenshot 2025-06-12 at 17 14 01" src="https://github.com/user-attachments/assets/4faca02f-8654-4c0d-adfc-935f95ae3928" />
@@ -38,11 +34,13 @@ Commands Used:
 Initial Test Coverage (so far just Daniel at this point)
 ![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
 
-
 *Initial Test Coverage (Romina)*
 
 ![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
 
+*Initial Test Coverage (Elena)*
+
+![image](https://github.com/user-attachments/assets/2b7a35c4-32f4-4d56-b521-523b6e697311)
 
 
 ## Coverage improvement
