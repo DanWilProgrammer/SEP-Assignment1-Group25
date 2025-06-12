@@ -54,8 +54,7 @@ coverage report -m
 
 **Baseline Coverage Results:**
 
-![Initial Coverage](https://github.com/user-attachments/assets/2e85ee15-1892-4613-9034-90497c7ca631)
-
+![Before](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
 ---
 
 ## 📈 Coverage Improvement Analysis
@@ -93,6 +92,8 @@ coverage report -m
 ### 👩‍💻 Romina Asgari
 
 #### ✅ **Test 1:** `test_average_monthly_expenses`
+
+![Initial Coverage](https://github.com/user-attachments/assets/2e85ee15-1892-4613-9034-90497c7ca631)
 
 ![Test Implementation](https://github.com/user-attachments/assets/22c53da5-755b-4049-aa19-04c69b637ee8)
 
