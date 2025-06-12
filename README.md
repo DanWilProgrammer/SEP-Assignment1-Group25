@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/96c5f41f-0137-4426-8596-befa5e93e4e0)# Report for Assignment 1
+# Report for Assignment 1
 
 ## Project
 
