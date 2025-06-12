@@ -145,6 +145,7 @@ TODO: Provide a screenshot of the new coverage results
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
 **Test 2:** `test_total_expenses_per_category_single_new_category`
+
 ![image](https://github.com/user-attachments/assets/a7964086-f8ea-427d-a866-d632b81598cc)
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
