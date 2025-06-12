@@ -144,7 +144,7 @@ coverage report -m
 ![Before](https://github.com/user-attachments/assets/f2389064-81c7-4026-973e-5e4087e24808)
 
 **After Coverage:**
-*[Screenshot pending]*
+![image](https://github.com/user-attachments/assets/d15daea2-daf2-4d82-a368-23eacbd4edbf)
 
 **Coverage Improvement:** *[Percentage to be calculated]*
 - Improved testing of category-based expense analysis
