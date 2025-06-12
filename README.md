@@ -2,7 +2,7 @@
 
 ## Project
 
-Description: TODO
+Description: A command-line-based Expense Tracker that allows users to register/login, manage their expenses, set monthly budgets, and view budget charts. It uses file-based JSON storage and supports category breakdowns
 
 Programming language: Python
 
@@ -14,7 +14,12 @@ TODO: Add their code here
 
 ### Coverage of initial tests
 
-TODO: Inform the name of the existing tool that was executed and how it was executed
+Tool Used: coverage.py
+
+Command Used:
+
+coverage run -m pytest
+coverage report -m
 
 TODO: Show the coverage results provided by the existing tool with a screenshot
 
