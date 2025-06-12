@@ -30,7 +30,43 @@ Initial Test Coverage (so far just Daniel at this point)
 
 TODO: The following is supposed to be repeated for each group member
 
-TODO: Group member name
+TODO: Daniel
+
+TODO: Test 1
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+TODO: Provide a screenshot of the new coverage results
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+TODO: Romina
+
+TODO: Test 1
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+TODO: Provide a screenshot of the new coverage results
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+TODO: Adrianna
+
+TODO: Test 1
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+TODO: Provide a screenshot of the new coverage results
+
+TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
+
+TODO: Elena
 
 TODO: Test 1
 
