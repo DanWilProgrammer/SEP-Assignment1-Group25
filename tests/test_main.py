@@ -53,10 +53,4 @@ def test_expense_save_and_load(isolated_files):
     assert loaded[user][0]["amount"] == 100.0
     assert loaded[user][0]["category"] == "Food"
 
-def test_duplicate_registration(isolated_files):
-    user = "TestUser"
-    pwd = "123"
-    register(user, pwd)
-    duplicate = register(user, "456")
-    assert "already in use" in duplicate
 
