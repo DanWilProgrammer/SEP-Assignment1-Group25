@@ -16,7 +16,7 @@ Programming language: Python
 
 TODO: Add their code here
 
-*(Romina)*
+*test_average_monthly_expenses: (Romina)*
 <img width="1249" alt="Screenshot 2025-06-12 at 17 14 01" src="https://github.com/user-attachments/assets/4faca02f-8654-4c0d-adfc-935f95ae3928" />
 
 
