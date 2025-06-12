@@ -139,13 +139,15 @@ TODO: State the coverage improvement with a number and elaborate on why the cove
 
 Elena
 
-TODO: Test 1
+TODO: `test_view_log_file`
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
 TODO: Provide a screenshot of the new coverage results
+
+![Afbeelding van WhatsApp op 2025-06-12 om 21 47 33_0ea1d671](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
