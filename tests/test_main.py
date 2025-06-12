@@ -33,5 +33,30 @@ def test_register_and_login(isolated_files):
     bad_login_msg = login(user, "wrongpass")
     assert bad_login_msg == "Login failed :("
 
+def test_expense_save_and_load(isolated_files):
+    user = "TestUser"
+    pwd = "test123"
+    register(user, pwd)
+    login(user, pwd)
 
+    # Create dummy expense
+    expense = Expense("Test Expense", 100.0, user, [user], category="Food")
+    
+    data = get_user_expenses()
+    data[user] = [expense.to_dict()]
+    save_user_expenses(data)
+    
+    # Load back and verify
+    loaded = get_user_expenses()
+    assert user in loaded
+    assert len(loaded[user]) == 1
+    assert loaded[user][0]["amount"] == 100.0
+    assert loaded[user][0]["category"] == "Food"
+
+def test_duplicate_registration(isolated_files):
+    user = "TestUser"
+    pwd = "123"
+    register(user, pwd)
+    duplicate = register(user, "456")
+    assert "already in use" in duplicate
 
