@@ -101,7 +101,7 @@ coverage report -m
 **After Coverage:**
 ![After](https://github.com/user-attachments/assets/4bde0b98-d3ac-4955-be38-b38edb0d601d)
 
-**Coverage Improvement:** *[Percentage to be calculated]*
+**Coverage Improvement:** *8%*
 - Enhanced testing of monthly expense calculation algorithms
 
 #### ✅ **Test 2:** `test_input_expenses`
