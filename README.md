@@ -91,7 +91,8 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
-![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
+![image](https://github.com/user-attachments/assets/07e4ed37-f2a8-4c56-aef4-bc814e6c8b7e)
+
 
 TODO: Provide a screenshot of the new coverage results
 
