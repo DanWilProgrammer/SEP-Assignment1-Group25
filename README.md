@@ -99,9 +99,11 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-Adrianna
+Adriana
 
-TODO: Test 1
+TODO: 'test_total_expenses_per_category_basic_calculation'
+![image](https://github.com/user-attachments/assets/00069df2-cb96-46d7-a950-8b9b792b42db)
+
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
