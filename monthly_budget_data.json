@@ -1,0 +1,11 @@
+{
+    "monthly_budget": 1000,
+    "expenses": {},
+    "categories": [
+        "General",
+        "Food",
+        "Transportation",
+        "Entertainment",
+        "Utilities"
+    ]
+}

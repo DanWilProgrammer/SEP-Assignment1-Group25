@@ -41,4 +41,3 @@ def test_duplicate_registration(isolated_files):
     assert "already in use" in duplicate
     
 
-

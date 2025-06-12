@@ -1,5 +1,5 @@
 narwhals==1.42.0
-numpy==2.3.0
+numpy==2.2.6
 packaging==25.0
 pandas==2.3.0
 plotly==6.1.2
