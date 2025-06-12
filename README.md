@@ -1,4 +1,4 @@
-# Report for Assignment 1
+![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)# Report for Assignment 1
 
 ## Project
 
@@ -21,7 +21,8 @@ Command Used:
 - coverage run -m pytest
 - coverage report -m
 
-TODO: Show the coverage results provided by the existing tool with a screenshot
+Initial Test Coverage (so far just Daniel at this point)
+![image](https://github.com/user-attachments/assets/ade4eaea-8b27-4eb6-b431-0dda6ce9b5a0)
 
 ## Coverage improvement
 
