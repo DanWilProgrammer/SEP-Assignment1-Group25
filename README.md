@@ -112,8 +112,12 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
+
 <img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
-ODO: Provide a screenshot of the new coverage results
+
+
+TODO: Provide a screenshot of the new coverage results
+
 
 <img width="552" alt="Screenshot 2025-06-12 at 20 15 23" src="https://github.com/user-attachments/assets/799a0a8d-2e8e-493f-87fa-52bdd8136686" />
 
