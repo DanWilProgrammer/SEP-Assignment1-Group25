@@ -54,6 +54,18 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
+**Test:** `test_duplicate_registration`
+
+![image](https://github.com/user-attachments/assets/3d518a1f-26fc-4d57-80a1-2f3c3368e048)
+
+TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
+
+TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
+
+![image](https://github.com/user-attachments/assets/19d39f32-20af-44b5-95e8-d812e2613c8c)
+
+TODO: Provide a screenshot of the new coverage results
+
 Romina
 
 TODO: Test 1
