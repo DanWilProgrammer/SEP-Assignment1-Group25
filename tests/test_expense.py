@@ -51,6 +51,11 @@ class TestExpenseFunctions(unittest.TestCase):
     def test_average_monthly_expenses_two_months(self):
         self.assertAlmostEqual(Expense.average_monthly_expenses(self.expenses), 53.75)
 
+    def test_total_expenses(self):
+        total = Expense.total_expenses(self.expenses)
+        expected_total = 15.50 + 30.00 + 50.00 + 12.00
+        self.assertAlmostEqual(total, expected_total)
+
     
     def test_total_expenses_per_category_single_new_category(self):
         expenses = [
