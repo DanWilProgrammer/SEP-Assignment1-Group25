@@ -112,4 +112,8 @@ def test_monthly_budget_functions(monkeypatch, capsys, isolated_files):
     save_data(data)
     remove_monthly_budget()
     captured = capsys.readouterr()
-    assert "No monthly budget set currently." in captured.ou
+    assert "No monthly budget set currently." in captured.out
+    
+
+    
+ 
