@@ -83,21 +83,24 @@ TODO: Provide a screenshot of the new coverage results
 Romina
 
 TODO:
-**Test 1:** `total_expenses`
+**Test 1:** `average_monthly_expenses`
 
-<img width="668" alt="Screenshot 2025-06-12 at 18 07 34" src="https://github.com/user-attachments/assets/d50a0f0b-c7d2-4674-87f7-81a9b37d7a81" />
+![image](https://github.com/user-attachments/assets/22c53da5-755b-4049-aa19-04c69b637ee8)
+
 
 
 TODO: Show a patch (diff) or a link to a commit made in your repository that shows the new test
 
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
-![image](https://github.com/user-attachments/assets/07e4ed37-f2a8-4c56-aef4-bc814e6c8b7e)
+![image](https://github.com/user-attachments/assets/f97f3b83-8726-450f-b81f-8ae9b666a649)
+
 
 
 TODO: Provide a screenshot of the new coverage results
 
-<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
+![image](https://github.com/user-attachments/assets/4bde0b98-d3ac-4955-be38-b38edb0d601d)
+
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
@@ -110,7 +113,8 @@ TODO: Show a patch (diff) or a link to a commit made in your repository that sho
 TODO: Provide a screenshot of the old coverage results (the same as you already showed above)
 
 
-<img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
+![image](https://github.com/user-attachments/assets/69510d0b-c03d-4b54-8d36-b4111132cdb1)
+
 
 
 TODO: Provide a screenshot of the new coverage results
