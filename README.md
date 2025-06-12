@@ -66,6 +66,8 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 
 TODO: Provide a screenshot of the new coverage results
 
+![image](https://github.com/user-attachments/assets/0415d82b-af1d-4939-b008-34e1ce518e7f)
+
 Romina
 
 TODO: Test 1
