@@ -54,7 +54,7 @@ TODO: The following is supposed to be repeated for each group member
 
 Daniel
 
-**Test:** `test_expense_save_and_load`
+**Test 1:** `test_expense_save_and_load`
 
 [![image](https://github.com/user-attachments/assets/67baca08-8f86-4616-843f-b3bc201c8e5a)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/2d1be7ca42bad5cb70354ca21d37f16535fd2fbd)
 
@@ -72,7 +72,7 @@ TODO: Provide a screenshot of the new coverage results
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-**Test:** `test_duplicate_registration`
+**Test 2:** `test_duplicate_registration`
 
 [![image](https://github.com/user-attachments/assets/3d518a1f-26fc-4d57-80a1-2f3c3368e048)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/310f2e4b5f1e2307fbb7f15bf045fdff80ea102d)
 
@@ -89,7 +89,7 @@ TODO: Provide a screenshot of the new coverage results
 Romina
 
 TODO:
-**Test:** `total_expenses`
+**Test 1:** `total_expenses`
 
 <img width="668" alt="Screenshot 2025-06-12 at 18 07 34" src="https://github.com/user-attachments/assets/d50a0f0b-c7d2-4674-87f7-81a9b37d7a81" />
 
@@ -100,15 +100,13 @@ TODO: Provide a screenshot of the old coverage results (the same as you already 
 
 ![image](https://github.com/user-attachments/assets/2bc9c7ea-9c36-471b-9cc1-1a7d9724540b)
 
-
-
 TODO: Provide a screenshot of the new coverage results
 
 <img width="660" alt="Screenshot 2025-06-12 at 18 07 42" src="https://github.com/user-attachments/assets/fb095ad5-652f-403d-bc15-fd38358ea754" />
 
 TODO: State the coverage improvement with a number and elaborate on why the coverage is improved
 
-**Test:** `input_expenses`
+**Test 2:** `input_expenses`
 
  <img width="737" alt="Screenshot 2025-06-12 at 19 18 15" src="https://github.com/user-attachments/assets/4a0cd644-5138-4a3f-a9b9-ed0daee29d75" />
 
