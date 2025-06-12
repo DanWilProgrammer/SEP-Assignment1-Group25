@@ -40,7 +40,6 @@ def test_expense_save_and_load(isolated_files):
     assert loaded[user][0]["amount"] == 100.0
     assert loaded[user][0]["category"] == "Food"
 
-
 class TestExpenseFunctions(unittest.TestCase):
     def setUp(self):
         self.exp1 = Expense("Lunch", 15.50, "romina", ["romina", "sanam"], "Food", datetime(2024, 5, 10))
@@ -51,6 +50,18 @@ class TestExpenseFunctions(unittest.TestCase):
 
     def test_average_monthly_expenses_two_months(self):
         self.assertAlmostEqual(Expense.average_monthly_expenses(self.expenses), 53.75)
+
+    
+    def test_total_expenses_per_category_single_new_category(self):
+        expenses = [
+            Expense("Uni tuition", 2500.0, "adriana", ["adriana"], "Education"),
+            Expense("Zybook", 20.0, "adriana", ["adriana"], "Education")
+        ]
+        expected_totals = {
+            "Education": 2520.0
+        }
+        actual_totals = Expense.total_expenses_per_category(expenses)
+        self.assertEqual(actual_totals, expected_totals)
 
 if __name__ == "__main__":
     unittest.main()
