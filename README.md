@@ -132,6 +132,8 @@ coverage report -m
 
 #### ✅ **Test 1:** `test_RemoveMonthlyBudget_BudgetExists_BudgetIsZero`
 
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/31e717bded126d1d19e2e6143de2fe1c34d1429d#diff-6a779731444ecf8f76c23356c31de69b179e21616d54207c470e9d414de45ff0)
+
 ![Test Implementation](https://github.com/user-attachments/assets/17e0ebc1-9890-4b26-96a9-184f067f5a3b)
 
 **Before Coverage:**
@@ -144,6 +146,8 @@ coverage report -m
 - Enhanced testing of budget removal functionality and edge cases
 
 #### ✅ **Test 2:** `test_total_expenses_per_category_single_new_category`
+
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/31e717bded126d1d19e2e6143de2fe1c34d1429d#diff-6a779731444ecf8f76c23356c31de69b179e21616d54207c470e9d414de45ff0)
 
 ![Test Implementation](https://github.com/user-attachments/assets/a7964086-f8ea-427d-a866-d632b81598cc)
 
@@ -174,6 +178,8 @@ coverage report -m
 - Enhanced testing of log file viewing and data retrieval functionality
 
 #### ✅ **Test 2:** `test_monthly_budget`
+
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/f05b14b42d8aa9ac78517a309038b27e9226bb4f#diff-6a779731444ecf8f76c23356c31de69b179e21616d54207c470e9d414de45ff0)
 
 **Before Coverage:**
 ![Before](https://github.com/user-attachments/assets/f78e6ec3-581d-438b-a118-c119552f2835)
