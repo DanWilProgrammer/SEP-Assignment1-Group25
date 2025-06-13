@@ -163,6 +163,8 @@ coverage report -m
 #### ✅ **Test 1:** `test_view_log_file`
 
 **Before Coverage:**
+[![View Commit](https://img.shields.io/badge/View%20Commit-GitHub-green?style=flat-square&logo=github)](https://github.com/DanWilProgrammer/SEP-Assignment1-Group25/commit/05aeab498fcfc33376cd7faa13aa337f122548c3)
+
 ![Before](https://github.com/user-attachments/assets/b9828f07-237d-4c53-8fa5-86af5d05cbde)
 
 **After Coverage:**
