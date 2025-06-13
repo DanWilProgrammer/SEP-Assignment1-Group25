@@ -44,7 +44,7 @@
 #### 📊 **Category Analytics Testing** *(Adriana)*
 **Test:** `test_total_expenses_per_category_basic_calculation`
 
-[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_monthly_budget.py#L59)
+[![Test Implementation](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](tests/test_expense.py#L59)
 
 ![Test Screenshot](https://github.com/user-attachments/assets/2f5cfdab-93a5-415d-b74a-26362cd6665a)
 
